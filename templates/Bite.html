@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='Scripts/upload_file.js') }}"></script>
+
+</head>
+
+<body>
+<div>
+    <input type="file" name="file" id="file">
+    <button type="button" onclick="prediction()">送出</button>
+</div>
+
+
+<img id="image" width="320" height="180" style="display: none">
+
+<div id="main">
+
+</div>
+</body>
+</html>
